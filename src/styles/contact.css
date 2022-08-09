@@ -1,0 +1,40 @@
+.contact {
+    width: 90%;
+    margin: 200px auto;
+}
+
+.contact_heading {
+    font-size: 60px;
+}
+
+.contact_desc {
+    font-size: 30px;
+    margin: 40px 0;
+}
+
+.contact_button {
+    display: block;
+    background: #4034CD;
+    text-decoration: none;
+    padding: 20px 40px;
+    font-size: 25px;
+    width: max-content;
+}
+
+@media screen and (max-width: 1024px) {
+    .contact_heading {
+        font-size: 54px;
+    }
+    .contact_desc {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .contact_heading {
+        font-size: 36px;
+    }
+    .contact_text {
+        font-size: 12px;
+    }
+}

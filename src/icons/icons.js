@@ -7,7 +7,8 @@ import github from "./github.svg"
 import linkedIn from "./linkedin.svg"
 import arrow from "./arrow.svg"
 import arrow2 from "./arrow2.svg"
+import arrow3 from "./arrow3.svg"
 import link from "./link.svg"
 
 
-export { twitter, spotify, twitch, figma, dribbble, github, linkedIn, arrow, arrow2, link }
+export { twitter, spotify, twitch, figma, dribbble, github, linkedIn, arrow, arrow2, arrow3, link }
