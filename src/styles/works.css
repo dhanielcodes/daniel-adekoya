@@ -1,0 +1,15 @@
+.works_main {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.works_heading {
+    font-size: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .works_heading {
+        font-size: 36px;
+    }
+}
