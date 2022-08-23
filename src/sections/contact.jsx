@@ -12,7 +12,7 @@ const contact = () => {
                     My inbox is open if you want to contact me for a role or just to<br/> get in touch with me 🙂.
                 </div>
                 <div>
-                    <a target="_blank" href="mailto:adekoyadaniel53@gmail.com" className="contact_button">
+                    <a target="_blank" rel="noreferrer" href="mailto:adekoyadaniel53@gmail.com" className="contact_button">
                         Say Hello!
                     </a>
                 </div>

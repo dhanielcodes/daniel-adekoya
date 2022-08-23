@@ -1,4 +1,4 @@
-.works_main {
+.works {
     width: 90%;
     margin: 0 auto;
     margin-top: 200px;
@@ -6,33 +6,26 @@
 
 .works_heading {
     font-size: 60px;
+    margin-bottom: 40px;
 }
 
 .works_cards {
-    overflow: hidden;
-    overflow-x: scroll;
-    margin-top: 45px;
-    display: flex;
-    width: 100%;
-}
-
-.works_cards::-webkit-scrollbar {
-    display: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 100px;
 }
 
 .works_card {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: max-content;
     height: 350px;
-    margin-right: 40px;
 }
 
 .works_card_details {
     background: #4034CD;
     display: grid;
     place-items: center;
-    width: 380px;
+    width: 100%;
     height: 100%;
     padding: 0 30px;
 }
@@ -51,7 +44,7 @@
     padding: 10px;
     background: white;
     color: black;
-    width: max-content;
+    width: 100%;
 }
 
 .works_card_link a {
@@ -69,7 +62,7 @@
 }
 
 .works_card_img {
-    width: 380px;
+    width: 100%;
     height: 100%;
     background-color: white;
 }
@@ -79,22 +72,48 @@
     height: 100%;
 }
 
-.arrows {
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 100px;
-}
-
-.arrows img {
-    cursor: pointer;
-}
-
-.arrows img:first-child {
-    margin-right: 20px;
-}
-
 @media screen and (max-width: 1024px) {
     .works_heading {
         font-size: 36px;
+    }
+    .works_cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 60px;
+    }
+    .works_card {
+        display: grid;
+        grid-template-columns: 1fr;
+        height: max-content;
+    }
+    .works_card_details {
+        padding: 50px 30px;
+    }
+    .works_card_title {
+        font-size: 24px;
+    }
+    .works_card_desc {
+        font-size: 16px;
+        margin: 26px 0;
+        color: #DBD8F5;
+    }
+    .works_card_link {
+        padding: 10px;
+        background: white;
+        color: black;
+        font-size: 12px;
+        width: 100%;
+    }
+    .works_card_link a {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+    }
+    .works_card_link a img {
+        margin-right: 14px;
+    }
+    .works_card_link a div {
+        color: black;
+        word-break: break-all;
     }
 }

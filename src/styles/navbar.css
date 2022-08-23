@@ -1,3 +1,7 @@
+.nav {
+    overflow-y: hidden;
+}
+
 nav {
     width: 90%;
     margin: 40px auto;
@@ -6,6 +10,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 5px;
 }
 
 nav .name {
@@ -21,7 +26,7 @@ nav .burger {
     position: relative;
     height: auto;
     display: none;
-    z-index: 10;
+    cursor: pointer;
 }
 
 nav .burger div {
@@ -39,7 +44,7 @@ nav .burger div:last-child {
     margin-left: auto;
 }
 
-nav .mobile-nav {
+.mobile-nav {
     display: none;
     position: fixed;
     top: 0;
@@ -47,20 +52,28 @@ nav .mobile-nav {
     width: 100%;
     height: 100%;
     background: black;
+    z-index: 9;
 }
 
-nav .mobile-nav div {
+.mobile-nav div {
     display: flex;
     flex-direction: column;
     padding: 40px;
     padding-top: 100px;
 }
 
-nav .mobile-nav a {
+.mobile-nav a {
     margin-bottom: 30px;
     text-decoration: none;
     font-size: 36px;
     width: max-content;
+}
+
+.close {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 640px) {
@@ -76,8 +89,14 @@ nav .mobile-nav a {
     nav .icons {
         display: none;
     }
-    nav .mobile-nav {
+    .mobile-nav {
         display: block;
         transform: translateY(-100%);
     }
+}
+
+.logo_anim {
+    width: 200px;
+    opacity: .2;
+    animation: rotation 10s infinite linear;
 }
