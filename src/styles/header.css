@@ -16,6 +16,7 @@
     position: absolute;
     right: 150px;
     top: 20px;
+    animation: rotation 8s infinite linear;
 }
 
 .header .squigy {
@@ -23,22 +24,27 @@
     right: 150px;
     bottom: 0px;
     width: 200px;
+    animation: rotation2 20s infinite linear;
 }
 
 .main .line {
     position: absolute;
     left: 0;
     top: 50%;
+    transform: translateX(0%);
 }
 
 .main .line2 {
     position: absolute;
     right: 0;
     top: 50%;
+    transform: translateX(0%);
 }
 
 .header_text {
-    font-size: 80px
+    font-size: 80px;
+    font-weight: 500;
+    overflow: hidden;
 }
 
 .header_text span {
@@ -46,6 +52,7 @@
 }
 
 .header_p {
+    display: block;
     color: #A3A3A3;
     font-size: 26px;
     margin-top: 30px;
@@ -54,7 +61,8 @@
 .header .arrow {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 20px;
+    animation: scroll 4s infinite forwards;
 }
 
 
