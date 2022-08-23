@@ -64,6 +64,12 @@ nav .mobile-nav a {
 }
 
 @media screen and (max-width: 640px) {
+    nav .name {
+        font-size: 14px;
+    }
+    nav .name:nth-child(2) {
+        font-size: 12px;
+    }
     nav .burger {
         display: block;
     }
