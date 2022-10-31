@@ -38,9 +38,16 @@ const experience = () => {
         {
             title: "Junior Frontend Developer",
             place: "Dork",
-            period: "January 2021 - Present",
+            period: "January 2021 - October 2022",
             type: "Remote - Full time",
             site: "https://www.instagram.com/dork.ng/"
+        },
+        {
+            title: "Frontend Developer",
+            place: "TM30",
+            period: "October 2022 - Present",
+            type: "Onsite - Full time",
+            site: "https://tm30.net/"
         },
         
     ]
