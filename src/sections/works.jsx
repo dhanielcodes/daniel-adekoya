@@ -11,14 +11,19 @@ const Works = () => {
             link: "https://dhanielcodes.github.io/vue-navigation-ui/"
         },
         {
-            title: "Ingress App ( work )",
-            desc: "This is a visiting management system product, built for firms to keep the daily logs of visits in their company ( send an email to me for a test login )",
-            link: "mailto:adekoyadaniel53@gmail.com"
-        },
-        {
             title: "MRT Management Tool",
             desc: "It used by organisations to measure, review and track employee performance",
             link: "https://mrtstaff.com/"
+        },
+        {
+            title: "Hope Payment Service Bank",
+            desc: "This is a microfinance bank, can be used to receive, send and make bill payments",
+            link: "https://hopepsbank.com/"
+        },
+        {
+            title: "Ingress App ( work )",
+            desc: "This is a visiting management system product, built for firms to keep the daily logs of visits in their company ( send an email to me for a test login )",
+            link: "mailto:adekoyadaniel53@gmail.com"
         },
         {
             title: "Boton",
