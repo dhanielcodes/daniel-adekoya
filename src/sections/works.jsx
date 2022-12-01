@@ -21,6 +21,11 @@ const Works = () => {
             link: "https://hopepsbank.com/"
         },
         {
+            title: "PayMyBills Web",
+            desc: "Paymybills helps you to add and manage all your bills in one place. View a list of all your upcoming bills and their due dates",
+            link: "https://paymybills.ng/"
+        },
+        {
             title: "Ingress App ( work )",
             desc: "This is a visiting management system product, built for firms to keep the daily logs of visits in their company ( send an email to me for a test login )",
             link: "mailto:adekoyadaniel53@gmail.com"
