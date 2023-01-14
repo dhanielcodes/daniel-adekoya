@@ -19,6 +19,11 @@ const Works = () => {
       link: "https://hopepsbank.com/",
     },
     {
+            title: "PayMyBills Web",
+            desc: "Paymybills helps you to add and manage all your bills in one place. View a list of all your upcoming bills and their due dates",
+            link: "https://paymybills.ng/"
+        },
+    {
       title: "Adashi Savings Platform",
       desc: "Adashi is savings platform that gives you variety of options to save up your funds.",
       link: "https://adashiesusuakawo.com/",
@@ -29,6 +34,7 @@ const Works = () => {
       link: "https://boton.vercel.app/",
     },
   ];
+
 
   return (
     <div className="works">
@@ -52,6 +58,7 @@ const Works = () => {
               <div className="works_card_img">
                 <img src={da} alt="" />
               </div>
+
             </div>
           );
         })}
